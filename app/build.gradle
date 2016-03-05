@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "rice.ec.vr"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 8
+        versionName "1.7"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('libs/android-query.0.26.7.jar')
+    compile(name: 'RiceUtils-0.1.0', ext: 'aar');
+    compile(name: 'PanoStitching-0.1.3', ext: 'aar');
+    compile(name: 'PanoPlayer-0.1.0', ext: 'aar');
+    compile(name: 'RiceShare-0.1.0', ext: 'aar');
+}
+repositories {
+    flatDir {
+        dir 'libs'
+    }
+}

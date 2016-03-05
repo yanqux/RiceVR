@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">稻米VR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_wifi_share">WiFi分享</string>
+    <string name="title_activity_my_debug">MyDebug</string>
+    <string name="wifi_menu_title_wgw">主页</string>
+    <string name="wifi_menu_title_refresh">刷新</string>
+    <string name="wifi_menu_title_share">分享</string>
+    <string name="wifi_menu_title_update">更新</string>
+    <string name="wifi_menu_title_qrcode">二维码</string>
+    <string name="wifi_menu_title_sortsettings">排序</string>
+    <string name="wifi_menu_title_follow">关注</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="web_menu_title_return">返回</string>
+    <string name="web_menu_title_homepage">主页</string>
+    <string name="web_menu_title_refresh">刷新</string>
+    <string name="web_menu_title_goback">后退</string>
+    <string name="web_menu_title_forward">前进</string>
+    <string name="web_menu_title_cleancache">清理缓存</string>
+
+    <drawable name="normal">#ff3c3446</drawable>
+    <drawable name="pressed">#ff57525f</drawable>
+    <drawable name="menunormal">#cc3c3446</drawable>
+    <drawable name="menupressed">#cc57525f</drawable>
+    <drawable name="mytextcolor">#5face8</drawable>
+    <drawable name="mytextbordercolor">#FFF</drawable>
+    <drawable name="mytitlebarbackground">#ffffffff</drawable>
+    <drawable name="mysearchtitlebarbackground">#cc3c3446</drawable>
+    <drawable name="mytabbarbackground">#ff3c3446</drawable>
+    <drawable name="myfontcolor">#414141</drawable>
+    <drawable name="myfonthintcolor">#ff8e8a85</drawable>
+    <drawable name="mytitlecolor">#FFF</drawable>
+    <drawable name="mybackgroundcolor">#ffffffff</drawable>
+    <drawable name="mymenubordercolor">#cc57525f</drawable>
+    <drawable name="kindbarnormal">#ffffffff</drawable>
+    <drawable name="kindbarpressed">#ffede7e0</drawable>
+    <drawable name="linearlayout_off">#ffffff</drawable>
+    <drawable name="linearlayout_on">#efefef</drawable>
+    <drawable name="buttombar_off">#8d8d8d</drawable>
+
+    <string name="title_activity_store_search">StoreSearch</string>
+    <string name="version_SHZS">1.45</string>
+    <string name="title_activity_cashier">Cashier</string>
+    <string name="title_activity_pano_player">PanoPlayer</string>
+    <string name="title_activity_pano_viewer">PanoViewer</string>
+    <string name="title_activity_vrmarket">VRMarketActivity</string>
+    <string name="title_activity_pano3_dviewer">Pano3DViewer</string>
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_nomore">没有更多数据了</string>
+    <string name="title_activity_my_vr">MyVRActivity</string>
+
+</resources>

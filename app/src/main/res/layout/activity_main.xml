@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rice.appprototype.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tab_border"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/buttom_tab"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/tab_nav_home_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_share"
+            style="@style/buttom_tab"
+            android:drawableTop="@drawable/tab_nav_share_selector"
+            android:textSize="12sp"
+            android:text="分享" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/buttom_tab"
+            android:drawableTop="@drawable/tab_nav_mine_selector"
+            android:textSize="12sp"
+            android:text="我的" />
+    </RadioGroup>
+</LinearLayout>  

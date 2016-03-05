@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="7dp"
+        android:visibility="visible">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/rb_image"
+                style="@style/kindbar_tab"
+                android:background="@drawable/kindbar_selector"
+                android:drawableLeft="@drawable/tab_type_image_on"
+                android:drawablePadding="0dp"
+                android:paddingLeft="50dp"
+                android:paddingBottom="10dp"
+                android:text="图片" />
+
+            <RadioButton
+                android:id="@+id/rb_video"
+                style="@style/kindbar_tab"
+                android:layout_width="100dp"
+                android:background="@drawable/kindbar_selector"
+                android:text="视频" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:background="#fff">
+
+            <RelativeLayout
+                android:id="@+id/type_tab_image"
+                style="@style/type_tab">
+                <ImageView
+                    style="@style/type_tab_image"
+                    android:id="@+id/type_tab_image_image"
+                    android:layout_toLeftOf="@+id/type_tab_image_title"/>
+                <TextView
+                    style="@style/type_tab_title"
+                    android:id="@+id/type_tab_image_title"
+                    android:text="图片" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/type_tab_video"
+                style="@style/type_tab">
+                <ImageView
+                    style="@style/type_tab_image"
+                    android:id="@+id/type_tab_video_image"
+                    android:layout_toLeftOf="@+id/type_tab_video_title"/>
+                <TextView
+                    style="@style/type_tab_title"
+                    android:id="@+id/type_tab_video_title"
+                    android:text="视频" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
